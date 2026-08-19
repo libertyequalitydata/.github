@@ -22,6 +22,7 @@ There is no single way to contribute. We welcome collaboration across research, 
 ## Learn and connect
 
 - [Website](https://libertyequalitydata.org/)
+- [Join the conversation on GitHub](https://github.com/libertyequalitydata/.github/discussions)
 - [Charter of Personal AI freedoms](https://libertyequalitydata.org/principles)
 - [Flagship initiatives](https://libertyequalitydata.org/initiatives)
 - [Ways to participate](https://libertyequalitydata.org/participate)
