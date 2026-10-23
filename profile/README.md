@@ -2,13 +2,17 @@
 
 > Core → PIOS → Personal Ecosystem: owner-controlled information enabling personal intelligence.
 
-Liberty. Equality. Data.—often shortened to **LED**—is building an open Personal Ecosystem on a clear foundation: **Core → [PIOS](https://github.com/peecos/pios) → Personal Ecosystem**.
+Liberty. Equality. Data.—often shortened to **LED**—promotes and expands a person-centric Personal Ecosystem on a clear foundation: **Core → [PIOS](https://github.com/peecos/pios) → Personal Ecosystem**.
 
 **Core is the foundation and center.** It provides the owner-controlled information, permissions, continuity and compatibility foundation. Core is not tied to one custody model: an individual can use a [self-hosted Core](https://github.com/peecos/pios-core-self-hosted), set up Core in their own [AWS environment](https://github.com/peecos/pios-core-aws-template), or choose a compatible hosted service such as [Core by Prifina](https://core.prifina.com/).
 
 **PIOS is the wider Personal Information Operating System built around Core.** It enables the person's information, context, history and authorized processing to work as a holistic system rather than remain fragmented across unrelated services.
 
-**The Personal Ecosystem is the wider environment enabled by PIOS.** It includes applications, agents, AI, models, interfaces, storage and service providers that the individual can choose and combine without surrendering control of the underlying information.
+**The Personal Ecosystem is the wider environment enabled by PIOS.** Its Personal App Ecosystem includes applications, agents, AI, models, interfaces, storage and service providers that the individual can choose and combine without surrendering control of the underlying information.
+
+The ecosystem is **person-centric, not app-centric**. Participating applications can be commercial or free, proprietary or open source, maintained by companies, communities or individuals, and can represent any application type. “Open ecosystem” means open participation, choice and interoperability; it does not require every participating application to use the same license or business model.
+
+The defining architectural quality is that compatible applications can work, with the person's authorization, from a common information foundation in Core for and about that person. This does not give every application access to everything: the person decides what each application may contribute, receive and use. The person should not need to rebuild or surrender their identity, context, history and relationships separately inside every application.
 
 **Personal intelligence is the outcome.** It emerges when the person's information can be understood and used as a continuous whole for that person. Applications, personal agents, AI models, interfaces, storage and service providers are enabling components. They can capture, organize, process, retrieve or act on authorized information, but none of them is the value by itself.
 
@@ -18,13 +22,14 @@ Liberty. Equality. Data.—often shortened to **LED**—is building an open Pers
 
 ## Core → PIOS → Personal Ecosystem
 
-**Personal Browser is the first of many applications planned for the Personal Ecosystem.** These applications can provide focused experiences of their own while participating through PIOS in a broader personal information environment controlled by the individual.
+**Personal Browser is the first open-source application released by LED for the Personal App Ecosystem.** It is one example among applications that can be commercial, proprietary, open source or community-maintained. Prifina applications such as [AI Twins](https://aitwin.prifina.com/) and [Souvéa](https://libertyequalitydata.org/souvea) are additional examples of personal applications and experiences moving in this person-centric direction.
 
-An application does not qualify merely because it stores data locally or calls itself personal. To be part of the Personal Ecosystem, its architecture cannot be exclusively siloed. It needs a real path for the individual to make selected data, context and information available through PIOS beyond that one application—to Core, storage, endpoints, applications and personal AI systems the individual chooses—under explicit, limited and revocable rules.
+An application does not qualify merely because it stores data locally, uses AI or calls itself personal. To participate meaningfully in the Personal Ecosystem, its architecture cannot be exclusively siloed. It needs a real path for the individual to make selected data, context and information available through PIOS beyond that one application—to Core, storage, endpoints, applications and personal AI systems the individual chooses—under explicit, limited and revocable rules.
 
 The common direction is:
 
 - useful as an application in its own right;
+- compatible with commercial, proprietary, open-source and community participation;
 - local-first or otherwise privacy-preserving by default;
 - no automatic creator access to the person's information;
 - owner-controlled portability and interoperability rather than forced custody;
@@ -44,11 +49,11 @@ The ecosystem can include many kinds of enabling components:
 - **Core operators, storage and service providers** operate infrastructure selected by the individual, including self-hosted and hosted options.
 - **Interfaces and devices** let the individual review, approve and use the system.
 
-These components can be independently useful and supplied by different organizations. Their role is to work through the owner-controlled Core and wider PIOS system to enable personal intelligence—not to become another center that owns the person or fragments their information.
+These components can be independently useful, use different licenses and business models, and be supplied by different organizations. Their role is to work through the owner-controlled Core and wider PIOS system to enable personal intelligence—not to become another center that owns the person or fragments their information.
 
 Personal AI applications and personal agents should remain independent of any one model, provider, cloud, device or company. Like every personal application, they cannot qualify through an architecture that keeps their only useful data, context, learning or action history inside a provider-controlled silo.
 
-The current LED website expresses that category through six Personal AI freedoms:
+LED especially promotes and expands the Personal App Ecosystem around freedom principles. Its current public charter expresses six of them through Personal AI:
 
 1. **Freedom to choose your AI** — the model serving a person is their choice.
 2. **Freedom to control your personal data** — the person decides what is stored, remembered, shared and forgotten.
@@ -63,22 +68,23 @@ The current LED website expresses that category through six Personal AI freedoms
 
 | Project | What it is | Status |
 |---|---|---|
-| [Personal Browser](https://github.com/libertyequalitydata/PersonalBrowser) | The first Personal Ecosystem application project: an independent, local-first iPhone browser source edition designed to evolve beyond a silo while keeping current capability claims explicit. | Public MIT-licensed source release; PIOS/Core connection not yet included |
+| [Personal Browser](https://github.com/libertyequalitydata/PersonalBrowser) | The first open-source application released by LED for the Personal App Ecosystem: an independent, local-first iPhone browser source edition designed to evolve beyond a silo while keeping current capability claims explicit. | Public MIT-licensed source release; PIOS/Core connection not yet included |
 | [Voice Notes](https://github.com/libertyequalitydata/VoiceNotes) | A local-first iPhone recorder and on-device transcription application. | Public MIT-licensed source repository |
+| [AI Twins by Prifina](https://aitwin.prifina.com/) | Personal applications for making an individual's approved expertise available to selected audiences within owner-defined sources, scope and boundaries. | Prifina personal application |
+| [Souvéa](https://libertyequalitydata.org/souvea) | A personal AI application for everyday life and a reference implementation of personal-context and agent capabilities. | Prifina personal application and ecosystem initiative |
 | [PIOS 2.0](https://github.com/peecos/pios) | The Personal Information Operating System open reference framework for a holistic, owner-controlled personal information system with Core at its center. | Foundational public framework maintained by [peecos](https://github.com/peecos) |
 | [Core implementations](https://github.com/peecos/pios-core-self-hosted) | Deployable Core options for the owner-controlled information, permissions, continuity and compatibility foundation. | [Self-hosted VM](https://github.com/peecos/pios-core-self-hosted), [owner-managed AWS](https://github.com/peecos/pios-core-aws-template), or a compatible hosted service such as [Core by Prifina](https://core.prifina.com/) |
-| [Souvéa](https://libertyequalitydata.org/souvea) | A founding contribution and reference platform using AI and agent capabilities around personal context. | Enabling Personal AI and agent platform; ecosystem initiative |
 
 Repositories in this organization also include earlier personal-data applications, widgets and experiments. Their presence does not mean they are current maintained products; each repository's own README and release history define its status.
 
 ## Building the ecosystem
 
-The PIOS-centered personal ecosystem cannot be built by one participant. LED welcomes contributions from:
+The PIOS-centered Personal Ecosystem cannot be built by one participant or one licensing model. LED welcomes contributions from:
 
 - people who want control over their information, applications and resulting personal intelligence;
 - researchers working on models, memory, agent safety and new approaches;
-- developers building non-siloed applications, personal agents, integrations and infrastructure;
-- organizations creating trusted personal applications, Personal AI and personal-agent experiences;
+- developers building non-siloed open-source or proprietary applications, personal agents, integrations and infrastructure;
+- companies creating commercial personal applications, Personal AI and personal-agent experiences;
 - sovereign, regional and self-hosted infrastructure providers; and
 - policy, identity, privacy, consumer and investment communities.
 
